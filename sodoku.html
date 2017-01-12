@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Sudoku</title>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+<script src="js-ss/script-tt.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="body"></div>
+<audio src="suspense.mp3" loop="loop" autoplay="autoplay"></audio>
+	<div class="logo">
+		<h1>Sudoku 15</h1>
+		<button class="help">Help</button>
+		
+	</div>
+	<div class="ajuda">
+		<p>Para vencer você deverá preencher todas as células numericamente, de modo que nas verticais, diagonais e orizontais, a soma dos três algarismos seja 15. Para pedir dicas, ou saber seu andamento, marque a opção na parte superior. Sucesso!!</p><p>Aguarde, esta tela será ocultada em instantes..</p>
+	</div>
+	<div class="container">
+			<span class="sp">Habilitar dicas</span><input id="tuto" style='margin-left: 20px; color:#fff;' type="checkbox">
+			<span class="sp"> Tempo decorrido:</span><input type="text" class="cro2"><input type="text" class="cro">
+			<div class="resultado"></div>
+			<div class="tabela">
+				
+				<form action="">
+					
+				<input  class="texto"  id="inp1" ="" type="text" maxlength="1">
+				<input class="texto"  id="inp2"   type="text" maxlength="1">
+				<input  class="texto"  id="inp3" type="text" maxlength="1"><br/>
+				<input  class="texto"  id="inp4" type="text" maxlength="1">
+				<input class="texto"  id="inp5"   type="text" maxlength="1">
+				<input  class="texto"  id="inp6" type="text" maxlength="1"><br/>
+				<input  class="texto"  id="inp7" type="text" maxlength="1">
+				<input  class="texto"  id="inp8" type="text" maxlength="1">
+				<input  class="texto"  id="inp9" type="text" maxlength="1"><br/>
+				<input type="reset" value="Clear all" class="but"><input type="button" class="but2 but" value="Restart">
+				</form>
+
+			</div>
+
+	</div>
+</body>
+</html>
